@@ -4,8 +4,16 @@
 public class A1H8 {
     public static void main(String[] args) {
 
-        System.out.println("Game start!!");
+        /* 1. Deneme */
+        System.out.println("1. DENEME ->>");
         Game game = new Game();
+        game.playGame();
+
+        System.out.println();
+
+        /* 2. Deneme */
+        System.out.println("2. DENEME ->>");
+        game = new Game();
         game.playGame();
 
     }
